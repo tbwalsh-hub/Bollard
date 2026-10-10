@@ -6,65 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bollard</title>
   <meta name="description" content="Bollard — independent band from Melbourne, Australia.">
+
   <style>
-    
-body {
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 0 20px;
-  background: #f7f6f2;
-  color: #111;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-h1 {
-  font-size: 32px;
-  margin-bottom: 0;
-}
-
-h2 {
-  font-size: 17px;
-  margin-top: 35px;
-}
-
-p {
-  margin: 8px 0;
-}
-
-a {
-  color: #111;
-}
-
-.layout {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 60px;
-  margin-top: 25px;
-}
-
-.shows h2 {
-  margin-top: 0;
-}
-
-.release {
-  margin: 18px 0;
-}
-
-footer {
-  margin-top: 50px;
-  font-size: 12px;
-}
-
-@media (max-width: 600px) {
-  .layout {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-}
     body {
-      max-width: 700px;
+      max-width: 900px;
       margin: 30px auto;
       padding: 0 20px;
       background: #f7f6f2;
@@ -92,6 +37,17 @@ footer {
       color: #111;
     }
 
+    .layout {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 60px;
+      margin-top: 25px;
+    }
+
+    .shows h2 {
+      margin-top: 0;
+    }
+
     .release {
       margin: 18px 0;
     }
@@ -99,6 +55,13 @@ footer {
     footer {
       margin-top: 50px;
       font-size: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
     }
   </style>
 </head>
@@ -109,30 +72,44 @@ footer {
     <p>Melbourne, Australia</p>
   </header>
 
-  <main>
-    <p>
-      Bollard are a band from Melbourne, Australia.
-    </p>
+  <main class="layout">
+    <div class="main-content">
+      <p>
+        Bollard are a band from Melbourne, Australia.
+      </p>
 
-    <h2>Music</h2>
+      <h2>Music</h2>
 
-    <div class="release">
-      <p><strong>Lo</strong> (2023)</p>
-      <p>Album</p>
-      <p><a href="https://bollardband.bandcamp.com/">Listen on Bandcamp</a></p>
+      <div class="release">
+        <p><strong>Lo</strong> (2023)</p>
+        <p>Album</p>
+        <p><a href="https://bollardband.bandcamp.com/">Listen on Bandcamp</a></p>
+      </div>
+
+      <div class="release">
+        <p><strong>Trawlers</strong> (2018)</p>
+        <p>Album</p>
+        <p><a href="https://bollardband.bandcamp.com/">Listen on Bandcamp</a></p>
+      </div>
+
+      <h2>Links</h2>
+
+      <p><a href="https://bollardband.bandcamp.com/">Bandcamp</a></p>
+      <p><a href="https://www.instagram.com/abandcalledbollard/?hl=en">Instagram</a></p>
+      <p><a href="mailto:abandcalledbollard@gmail.com">Email</a></p>
     </div>
 
-    <div class="release">
-      <p><strong>Trawlers</strong> (2018)</p>
-      <p>Album</p>
-      <p><a href="https://bollardband.bandcamp.com/">Listen on Bandcamp</a></p>
-    </div>
+    <aside class="shows">
+      <h2>Upcoming shows</h2>
 
-    <h2>Links</h2>
+      <p>No upcoming shows at the moment.</p>
 
-    <p><a href="https://bollardband.bandcamp.com/">Bandcamp</a></p>
-    <p><a href="https://www.instagram.com/abandcalledbollard/?hl=en">Instagram</a></p>
-    <p><a href="mailto:abandcalledbollard@gmail.com">Email</a></p>
+      <p>
+        <a href="https://www.instagram.com/abandcalledbollard/?hl=en">
+          Follow us on Instagram for updates
+        </a>
+      </p>
+    </aside>
   </main>
 
   <footer>
