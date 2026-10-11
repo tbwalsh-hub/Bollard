@@ -1,192 +1,4 @@
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bollard</title>
-  <meta name="description" content="Bollard — independent band from Melbourne, Australia.">
-
-  <style>
-    body {
-      max-width: 900px;
-      margin: 35px auto;
-      padding: 0 20px;
-      background: #f3f0e8;
-      color: #171714;
-      font-family: "Courier New", Courier, monospace;
-      font-size: 14px;
-      line-height: 1.55;
-    }
-
-    h1 {
-      font-size: 36px;
-      letter-spacing: -2px;
-      margin-bottom: 0;
-      font-weight: bold;
-    }
-
-    h2 {
-      font-size: 15px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-top: 32px;
-      border-bottom: 1px solid #171714;
-      padding-bottom: 4px;
-    }
-
-    p {
-      margin: 8px 0;
-    }
-
-    a {
-      color: #171714;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-
-    a:hover {
-      background: #ded8c9;
-    }
-
-    .layout {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 50px;
-      margin-top: 28px;
-    }
-
-    .news h2,
-    .shows h2 {
-      margin-top: 0;
-    }
-
-    .album-cover {
-      display: block;
-      width: 100%;
-      max-width: 180px;
-      height: auto;
-      margin-top: 15px;
-    }
-
-    .release {
-      margin: 18px 0;
-    }
-
-    .band-photo {
-      display: block;
-      width: 100%;
-      max-width: 260px;
-      height: auto;
-      margin-top: 30px;
-    }
-
-    .video {
-      width: 100%;
-      max-width: 480px;
-      margin-top: 25px;
-    }
-
-    .video iframe {
-      display: block;
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      height: auto;
-      border: 1px solid #171714;
-    }
-
-    footer {
-      margin-top: 55px;
-      padding-top: 8px;
-      border-top: 1px solid #171714;
-      font-size: 11px;
-    }
-
-    @media (max-width: 600px) {
-      body {
-        margin-top: 22px;
-      }
-
-      .layout {
-        grid-template-columns: 1fr;
-        gap: 28px;
-      }
-
-      h1 {
-        font-size: 32px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <header>
-    <h1>Bollard</h1>
-    <p>Melbourne, Australia</p>
-  </header>
-
-  <main class="layout">
-    <div class="main-content">
-      <p>Bollard are a band from Melbourne, Australia.</p>
-
-      <section class="news">
-        <h2>News</h2>
-        <p><strong>New album 'HEAT' out October 25.</strong></p>
-
-        <img
-          src="IMG_8356.jpg"
-          alt="Bollard — HEAT album cover"
-          class="album-cover"
-        >
-
-        <div class="video">
-          <iframe
-            src="https://www.youtube.com/embed/J5gvEHL4ZxI"
-            title="Bollard music video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
-        </div>
-      </section>
-
-      <h2>Music</h2>
-
-      <div class="release">
-        <p><strong>Lo</strong> (2023)</p>
-        <p>Album</p>
-        <p>
-          <a href="https://bollardband.bandcamp.com/">
-            Listen on Bandcamp
-          </a>
-        </p>
-      </div>
-
-      <div class="release">
-        <p><strong>Trawlers</strong> (2018)</p>
-        <p>Album</p>
-        <p>
-          <a href="https://bollardband.bandcamp.com/">
-            Listen on Bandcamp
-          </a>
-        </p>
-      </div>
-
-      <h2>Links</h2>
-
-      <p>
-        <a href="https://bollardband.bandcamp.com/">Bandcamp</a>
-      </p>
-      <p>
-        <a href="https://www.instagram.com/abandcalledbollard/?hl=en">
-          Instagram
-        </a>
-      </p>
-      <p>
-        <a href="mailto:abandcalledbollard@gmail.com">Email</a>
-      </p>
-    </div>
-
     <aside class="shows">
       <h2>Upcoming shows</h2>
 
@@ -205,17 +17,20 @@
         class="band-photo"
       >
 
+      <div class="video">
+        <iframe
+          src="https://www.youtube.com/embed/J5gvEHL4ZxI"
+          title="Bollard music video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+
       <p>
         <a href="https://www.youtube.com/@bollardband">
           Music videos on YouTube
         </a>
       </p>
     </aside>
-  </main>
-
-  <footer>
-    <p>Bollard — Melbourne, Australia</p>
-  </footer>
-</body>
-</html>
 ```
