@@ -49,6 +49,14 @@
       margin-top: 0;
     }
 
+    .album-cover {
+      display: block;
+      width: 100%;
+      max-width: 180px;
+      height: auto;
+      margin-top: 15px;
+    }
+
     .release {
       margin: 18px 0;
     }
@@ -79,15 +87,16 @@
         Bollard are a band from Melbourne, Australia.
       </p>
 
-<section class="news">
-  <h2>News</h2>
-  <p><strong>New album 'HEAT' out October 25.</strong></p>
-  <img
-    src="IMG_8356.jpg"
-    alt="Bollard — HEAT album cover"
-    class="album-cover"
-  >
-</section>
+      <section class="news">
+        <h2>News</h2>
+        <p><strong>New album 'HEAT' out October 25.</strong></p>
+        <img
+          src="IMG_8356.jpg"
+          alt="Bollard — HEAT album cover"
+          class="album-cover"
+        >
+      </section>
+
       <h2>Music</h2>
 
       <div class="release">
