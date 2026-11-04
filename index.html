@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,6 +81,18 @@
       margin-top: 30px;
     }
 
+    .bandcamp-player {
+      width: 100%;
+      margin-top: 18px;
+    }
+
+    .bandcamp-player iframe {
+      display: block;
+      width: 100%;
+      height: 472px;
+      border: 0;
+    }
+
     .video {
       width: 100%;
       margin-top: 20px;
@@ -92,6 +104,11 @@
       aspect-ratio: 16 / 9;
       height: auto;
       border: 1px solid #171714;
+    }
+
+    .tickets {
+      margin-top: 12px;
+      font-weight: bold;
     }
 
     footer {
@@ -114,6 +131,10 @@
       h1 {
         font-size: 32px;
       }
+
+      .bandcamp-player iframe {
+        height: 472px;
+      }
     }
   </style>
 </head>
@@ -130,7 +151,9 @@
 
       <section class="news">
         <h2>News</h2>
+
         <p><strong>New album 'HEAT' — Out Now.</strong></p>
+
         <p>
           <a href="https://bollardband.bandcamp.com/album/heat">
             Listen to HEAT on Bandcamp
@@ -142,6 +165,18 @@
           alt="Bollard — HEAT album cover"
           class="album-cover"
         >
+
+        <div class="bandcamp-player">
+          <iframe
+            src="https://bandcamp.com/EmbeddedPlayer/album=2188844604/size=large/bgcol=ffffff/linkcol=171714/artwork=small/transparent=true/"
+            seamless
+            title="Bollard — HEAT Bandcamp player"
+          >
+            <a href="https://bollardband.bandcamp.com/album/heat">
+              Bollard — HEAT
+            </a>
+          </iframe>
+        </div>
       </section>
 
       <h2>Music</h2>
@@ -195,6 +230,16 @@
       <p><strong>November 27</strong></p>
       <p>Tramways</p>
 
+      <p class="tickets">
+        <a
+          href="https://events.humanitix.com/bollard-heat-album-launch-with-purrers"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tickets — Humanitix
+        </a>
+      </p>
+
       <p>
         <a href="https://www.instagram.com/abandcalledbollard/?hl=en">
           More details on Instagram
@@ -234,4 +279,3 @@
   </footer>
 </body>
 </html>
-```
